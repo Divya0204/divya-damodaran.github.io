@@ -13,6 +13,8 @@
       <a href="#about" class="header_nav_button">About</a>
       <a href="#experience" class="header_nav_button">Experience</a>
       <a href="#projects" class="header_nav_button">Projects</a>
+      <a href="#skills" class="header_nav_button">Skills</a>
+      <a href="#contact" class="header_nav_button">Contact</a>
 
     </div>
     <div id="home" class="section">
@@ -23,7 +25,7 @@
           <div id="home_buttons">
             <button id="resume"><i id="download_vector" class="fa fa-download"></i><a href="DivyaDamodaran2023_Resume.pdf" download>Resume</a></button>
             <button id="explore"><i class="material-icons" style="margin:5px 15px 0px 35px; color:#38322D">explore</i>
-              <p style="margin:7px 0px 0px 0px">Explore</p></button>
+              <p style="margin:7px 0px 0px 0px"><a href="#about">Explore</a></p></button>
           </div>
         </div>
       </div>
@@ -33,11 +35,12 @@
       <div class="about_box">
         <img src="divya.jpg" alt="Headshot" height="400">
         <div class="about_text">
-        <div style="display:flex">
+        <div style="display:flex;" >
         <button id="about_intro" class="about_sub active">Intro</button>
         <button id="about_education" class="about_sub">Education</button>
         <button id="about_interest" class="about_sub">Interests</button>
         </div>
+        <div id="intro_text" class="about_sub_text active">
         <p> 
           <span style="color:#FFC700">Hi, a quick intro...</span>My name is Divya Damodaran 
           and I am full-stack software engineer. I am currently intrested in New Grad Software
@@ -49,10 +52,13 @@
       </br></br>
         <span style="color:#FFC700">As for work experience...</span>I have about a full year of industry experience 
         as a software engineer through my internships (UniPantry, Amazon x2, Microsoft).
+      </br></br>
+      <span style="color:#FFC700">I'm looking for a workplace...</span> that values and promotes ownership, communication, mentorship and a sense of community.
         </br></br>
         <span style="color:#FFC700">When I'm not coding...</span>I love sitting down with a book and munching on 
         some good food. I also love indoors rock climbing and lively board game nights.
         </p>
+      </div>
         </div>
       </div>
     </div>
@@ -166,8 +172,25 @@
     $(this).addClass("active"); // This will add active class in clicked <li>   
   });
 
-  $(".about_sub").click(function() {  
+  $("#about_intro").click(function() {  
     $(".about_sub").removeClass("active"); // This will remove active classes from all <li> tags
-    $(this).addClass("active"); // This will add active class in clicked <li>   
+    $(this).addClass("active"); // This will add active class in clicked <li> 
+    $(".about_sub_text").removeClass("active");
+    $("#intro_text").addClass("active");
   });
+
+  $("#about_education").click(function() {  
+    $(".about_sub").removeClass("active"); // This will remove active classes from all <li> tags
+    $(this).addClass("active"); // This will add active class in clicked <li> 
+    $(".about_sub_text").removeClass("active");
+  });
+
+  $("#about_interest").click(function() {  
+    $(".about_sub").removeClass("active"); // This will remove active classes from all <li> tags
+    $(this).addClass("active"); // This will add active class in clicked <li> 
+    $(".about_sub_text").removeClass("active");
+  });
+
+
+
 </script>

@@ -111,6 +111,15 @@ body {
   font-size: 22px;
   margin-left: 40px;
   color: white;
+  align-self: start;
+}
+
+.about_sub_text {
+  display: none;
+}
+
+.about_sub_text.active {
+  display: block;
 }
 
 .about_sub {
@@ -146,7 +155,6 @@ body {
   font-size: 18px;
   color:#FFC700;
   background-color: #38322D;
-  cursor: pointer;
 }
 
 #resume a{
@@ -171,7 +179,11 @@ body {
   display:flex;
   color: #38322D;
   background-color: #FFC700;
-  cursor: pointer;
+}
+
+#explore a{
+  color: #38322D;
+  text-decoration: none;
 }
 
 #download_vector {
