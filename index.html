@@ -9,12 +9,12 @@
   </head>
   <body>
     <div class="header_nav">
-      <a href="#home" class="header_nav_button active">Divya Damodaran</a>
-      <a href="#about" class="header_nav_button">About</a>
-      <a href="#experience" class="header_nav_button">Experience</a>
-      <a href="#projects" class="header_nav_button">Projects</a>
-      <a href="#skills" class="header_nav_button">Skills</a>
-      <a href="#contact" class="header_nav_button">Contact</a>
+      <a href="#home" class="home header_nav_button active">Divya Damodaran</a>
+      <a href="#about" class="about header_nav_button">About</a>
+      <a href="#experience" class="experience header_nav_button">Experience</a>
+      <a href="#projects" class="projects header_nav_button">Projects</a>
+      <a href="#skills" class="skills header_nav_button">Skills</a>
+      <a href="#contact" class="contact header_nav_button">Contact</a>
 
     </div>
     <div id="home" class="section">
@@ -23,7 +23,7 @@
           <img src="divya.png" alt="Circular headshot" height="120px">
           <p id="home_text">Divya Damodaran</p>
           <div id="home_buttons">
-            <button id="resume"><i id="download_vector" class="fa fa-download"></i><a href="DivyaDamodaran2023_Resume.pdf" download>Resume</a></button>
+            <button id="resume"><i alt="" id="download_vector" class="fa fa-download"></i><a href="DivyaDamodaran2023_Resume.pdf" download>Resume</a></button>
             <button id="explore"><i class="material-icons" style="margin:5px 15px 0px 35px; color:#38322D">explore</i>
               <p style="margin:7px 0px 0px 0px"><a href="#about">Explore</a></p></button>
           </div>
@@ -38,7 +38,6 @@
         <div style="display:flex;" >
         <button id="about_intro" class="about_sub active">Intro</button>
         <button id="about_education" class="about_sub">Education</button>
-        <button id="about_interest" class="about_sub">Interests</button>
         </div>
         <div id="intro_text" class="about_sub_text active">
         <p> 
@@ -59,6 +58,32 @@
         some good food. I also love indoors rock climbing and lively board game nights.
         </p>
       </div>
+      <div id="education_text" class="about_sub_text">
+        <p> 
+          <a href="https://www.cornell.edu/" style="text-decoration: none;"><span style="color: #fff6d6; font-size: 30px; font-weight: bold;">Cornell Univeristy</span></a>
+        </br>
+        <span style="color:#FFC700">Bachelor of Science:</span> Major in Computer Science, Minor in Law & Society
+      </br>
+      <span style="color:#FFC700">Expected graduation:</span> May 2023
+    </br>
+    <span style="color:#FFC700">Relevant Coursework:</span>
+    <ul>
+      <li>CS4410: Operating Systems</li>
+      <li>CS4820: Intro to Analysis of Algorithms <button class="language_tag">Java</button></li>
+      <li>ENGRC3025: Communicating Digital Identity <button class="language_tag">HTML/CSS</button><button class="language_tag">JavaScript</button></li>
+      <li>CS3410: Computer System Organization and Programming <button class="language_tag">C++</button></li>
+      <li>CS3310: Data-Driven Web Applications <button class="language_tag">JavaScript</button></li>
+      <li>CS4740: Natural Language Processing <button class="language_tag">Python</button></li>
+      <li>CS3110: Data Structures and Functional Programming <button class="language_tag">OCaml</button></li>
+      <li>CS4300: Language and Information <button class="language_tag">Python</button></li>
+      <li>CS4780: Intro to Machine Learning <button class="language_tag">Python</button></li>
+      <li>CS4320: Intro to Database Systems <button class="language_tag">SQL</button></li>
+      <li>CS2043: Unix Tools and Scripting</li>
+      <li>CS2210: Data Structures and Object-Oriented Programming <button class="language_tag">Java</button></li>
+      <li>CS1110: Intro to Computing with Python <button class="language_tag">Python</button></li>
+    </ul>
+        </p>
+        </div>
         </div>
       </div>
     </div>
@@ -70,12 +95,11 @@
             <h2>MICROSOFT CLOUD SECURITY, REDMOND, WA
             </br>Software Development Intern
           </br> May 2022 - Aug 2022</h2>
-            <p><ul>
+            <ul>
               <li>Developed UI/UX of new context pane blade for Azure Sentinel Threat Intelligence blade/tab in React</li>
               <li>Fixed 403 error logging bug that reduced clutter in the error logs</li>
             </ul>
-            </p>
-            <div style="display:flex;">
+            <div>
             <button class="language_tag">React</button>
             <button class="language_tag">C#</button>
             </div>
@@ -86,18 +110,17 @@
             <h2>AMAZON DEVICES, SEATTLE, WA 
             </br>Software Development Intern
           </br> Feb 2022 - May 2022</h2>
-            <p><ul>
+              <ul>
               <li>Worked on additional features for a widget that underwent a successful experiment - project was on critical path which is typically not recommended for interns</li>
               <li>Refactored the code in the widget package to be more streamlined and readable</li>
               <li>Created technical Design Document for the new features to be incorporated</li>
               <li>Taking part in launch readiness for the new features</li>
             </ul>
-            </p>
-            <div style="display:flex;">
+            <div>
               <button class="language_tag">Java</button>
               <button class="language_tag">HTML/CSS</button>
               <button class="language_tag">JSP</button>
-              <button class="language_tag">Javascript</button>
+              <button class="language_tag">JavaScript</button>
               </div>
           </div>
         </div>
@@ -106,18 +129,17 @@
             <h2>AMAZON DEVICES, SEATTLE, WA 
             </br>Software Development Intern
           </br> June 2021 - August 2021</h2>
-            <p><ul>
+            <ul>
               <li>Completed core development of a widget for amazon smart home detail pages and modified Org level libraries with functionalities that can be used by other widgets</li>
-              <li>Received special recognition from UX Designer for leadership principle of “Deliver Results” through an amazon internal employee appreciation tool (amazon accolades)</li>
+              <li>Received special recognition from UX Designer for leadership principle of "Deliver Results" through an amazon internal employee appreciation tool (amazon accolades)</li>
             </ul>
-            </p>
-            <div style="display:flex;">
+            <div>
               <button class="language_tag">Java</button>
               <button class="language_tag">HTML/CSS</button>
               <button class="language_tag">JSP</button>
-              <button class="language_tag">Javascript</button>
+              <button class="language_tag">JavaScript</button>
               <button class="language_tag">SQL</button>
-              </div>
+            </div>
           </div>
         </div>
         <div class="container right">
@@ -125,14 +147,13 @@
             <h2>UNIPANTRY, ITHACA, NY
             </br>Software Development Intern
           </br> Jan 2021 - April 2021</h2>
-            <p><ul>
+            <ul>
               <li>Set up dev architecture for the app and utilized Flask, React Native and Firebase in app development</li>
               <li>Contributed to MVP website and was the dev team representative for drawing up the dev budget</li>
             </ul>
-            </p>
-            <div style="display:flex;">
-            <button class="language_tag">React Native</button>
-            <button class="language_tag">Javascript</button>
+            <div>
+            <button class="language_tag">React</button>
+            <button class="language_tag">JavaScript</button>
             <button class="language_tag">Python</button>
             </div>
           </div>
@@ -142,31 +163,191 @@
     <div id="projects" class="section">
       <p id="projects_header">Projects</p>
       <div class="cards">
-        <a href="https://divya0204.github.io/divya-damodaran.github.io/"><img src="project1.png" class="card_image"></a>
-        <p class="card_title">
-          My Professional Website
-        </p>
-        <p class="card_info">
-          Created a website from scratch that I use to display my 
-          professional capabilities and goals. You're currently on it!
-        </p>
-        <div style="display:flex;">
-          <button class="language_tag">React Native</button>
-          <button class="language_tag">Javascript</button>
-          <button class="language_tag">Python</button>
+        <div class="card_container">
+          <a href="https://divya0204.github.io/divya-damodaran.github.io/"><img src="project1.png" class="card_image">*Clicking on image takes you to project</a>
+          <p class="card_title">
+            My Professional Website
+          </p>
+          <p class="card_info">
+            Created a website from scratch that I use to display my 
+            professional capabilities and goals. You're currently on it!
+          </p>
+          <div style="display:flex;">
+            <button class="language_tag">HTML/CSS</button>
+            <button class="language_tag">JavaScript</button>
+            <button class="language_tag">JQuery</button>
           </div>
+        </div>
+        <div class="card_container">
+          <a href="streamOn_report.pdf" download><img src="streamOn.png" class="card_image">*Clicking on image downloads project report</a>
+          <p class="card_title">
+            StreamOn
+          </p>
+          <p class="card_info">
+            TV show recommendation website. As part of this project I wrote a script to scrape IMDB TV show data, 
+            developed the front end of the search page based on a UX design and 
+            developed a machine learning relevance feedback component.
+          </p>
+          <div style="display:flex;">
+            <button class="language_tag">HTML/CSS</button>
+            <button class="language_tag">JavaScript</button>
+            <button class="language_tag">JQuery</button>
+            <button class="language_tag">Python</button>
+          </div>
+        </div>
+        <div class="card_container">
+          <a href="incarceration_report.pdf" download><img src="incarceration.png" class="card_image">*Clicking on image downloads project report</a>
+          <p class="card_title">
+            Incarceration Statistics
+          </p>
+          <p class="card_info">
+            An interactive data visualization of incarceration statistics in the US made with d3/SVG. It was a three person project.
+            I made the donut chart, pictogram and made the interactive elements of the bar chart. I also combined all the charts for the project.
+            You can find project details in the project report available for download.
+          </p>
+          <div style="display:flex;">
+            <button class="language_tag">JavaScript</button>
+            <button class="language_tag">JQuery</button>
+            <button class="language_tag">d3/SVG</button>
+          </div>
+        </div>       
       </div>
     </div>
     <div id="skills" class="section">
-      
+      <p id="skills_header">Skills</p>
+      <div style="display: flex;">
+      <div class="grid">
+        <div class="bar">
+          <div id="html_bar" class="prof_bar">HTML/CSS</div>
+        </div>
+        <div class="bar">
+          <div id="python_bar" class="prof_bar">Python</div>
+        </div>
+        <div class="bar">
+          <div id="react_bar" class="prof_bar">React</div>
+        </div>
+        <div class="bar">
+          <div id="java_bar" class="prof_bar">Java</div>
+        </div>
+        <div class="bar">
+          <div id="sql_bar" class="prof_bar">SQL</div>
+        </div>
+        <div class="bar">
+          <div id="javascript_bar" class="prof_bar">JavaScript</div>
+        </div>
+       <div class="bar">
+        <div id="jsp_bar" class="int_bar">JSP</div>
+      </div>
+      <div class="bar">
+        <div id="jquery_bar" class="int_bar">JQuery</div>
+      </div>
+      <div class="bar">
+        <div id="ocaml_bar" class="int_bar">OCaml</div>
+      </div>
+      <div class="bar">
+        <div id="cplus_bar" class="sat_bar">C++</div>
+      </div>
+      <div class="bar">
+        <div id="csharp_bar" class="sat_bar">C#</div>
+      </div>
+    </div>
+      <div id="html_box" class="skill_box proficient">
+          <p class="skill_box_lang">HTML/CSS - <span style="color:#54493F">Proficient</span></p>
+        </br>
+        <p class="skill_box_text">I have experience with HTML/CSS from coursework, work experiences,
+          projects and independent study. HTML/CSS is the first coding language I studied</p>
+      </div>
+      <div id="python_box" class="skill_box proficient">
+        <p class="skill_box_lang">Python - <span style="color:#54493F">Proficient</span></p>
+      </br>
+      <p class="skill_box_text">I have experience with Python from coursework, work experiences,
+        projects and independent study. I'm adept with the use of Python for both data science and software development. Python is the second coding language I studied and the one I've used
+      most frequently. It is the language I am most comfortable with.</p>
+    </div>
+    <div id="react_box" class="skill_box proficient">
+      <p class="skill_box_lang">React - <span style="color:#54493F">Proficient</span></p>
+    </br>
+    <p class="skill_box_text">I've recently gotten a lot of practice with React through my internship at 
+      Microsoft. My team was just shifting into React from Typescript so I got a lot of ground up practice.
+    </p>
+  </div>
+  <div id="java_box" class="skill_box proficient">
+    <p class="skill_box_lang">Java - <span style="color:#54493F">Proficient</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with Java from coursework and work experiences. 
+    I've used it intensively in my work experiences at Amazon so I'm very comfortable with it. Plus, my 
+    first data structures class was in Java so it stuck.
+  </p>
+</div>
+  <div id="sql_box" class="skill_box proficient">
+    <p class="skill_box_lang">SQL - <span style="color:#54493F">Proficient</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with SQL from coursework, work experiences and independent study. 
+    I've used SQL in a coupl of classes and I've occasionally used at work though not intensively. I always brush
+  up on my SQL independently every now and then, so I'd say I'm still pretty confident with it.</p>
+  </div>
+  <div id="javascript_box" class="skill_box proficient">
+    <p class="skill_box_lang">JavaScript - <span style="color:#54493F">Proficient</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with JavaScript from coursework, work experiences,
+    projects and independent study. Because JavaScript and HTML/CSS often go hand in hand, I'd 
+  say my experience here is pretty intensive. </p>
+  </div>
+  <div id="jquery_box" class="skill_box intermediate">
+    <p class="skill_box_lang">JQuery - <span style="color:#C6AF92">Intermediate</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with JQuery from coursework, work experiences,
+    projects and independent study. JQuery is an offshoot of JavaScript, and really very convenient 
+  for some things that are unnecessarily tricky in JavaScript. I'd say I'm pretty familiar with it, but 
+not so much as to say I'm proficient.</p>
+  </div>
+  <div id="jsp_box" class="skill_box intermediate">
+    <p class="skill_box_lang">JSP - <span style="color:#C6AF92">Intermediate</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with JSP from work experiences. All my experience with JSP comes from my time
+    interning at Amazon. I delivered my projects just fine despite them intensively using JSP, but it was a lot of 
+    looking around and research. Probably a little rusty right now, but muscle memory will likely kick in if I need to use it.
+  </p>
+  </div>
+  <div id="ocaml_box" class="skill_box intermediate">
+    <p class="skill_box_lang">OCaml - <span style="color:#C6AF92">Intermediate</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with OCaml from coursework. I used it pretty intensively in CS3110: Data Structures and functional programming. 
+    The class had big coding assignments in OCaml and a large final project that was 2000 lines of code. I did pretty well in the class and the assignments in 
+    particular. It's a pretty fun language, but I'm definately very rusty.
+  </p>
+  </div>
+  <div id="cplus_box" class="skill_box satisfactory">
+    <p class="skill_box_lang">C++ - <span style="color:goldenrod">Satisfactory</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with C++ from coursework. CS3410: Computer System Organization and Programming used it towards the end for assignments.
+    I did just fine for myself, but would definately need a crazy amount of stackoverflow to pull off a big project in the language.
+  </p>
+  </div>
+  <div id="csharp_box" class="skill_box satisfactory">
+    <p class="skill_box_lang">C# - <span style="color:goldenrod">Satisfactory</span></p>
+  </br>
+  <p class="skill_box_text">I have experience with C# from work experiences, particulary my internship at Microsoft.
+    Microsoft primarily uses C# for their backend, and despite being mostly on frontend for my internship I did have to make sense of the 
+    backend codebase sometimes. Beyond reading a lot of C#, I also had to write a couple lines for the bug fix I made during my internship.
+    I'm definately very much a beginner in the language, but I wouldn't say it's entirely foreign to me either.
+  </p>
+  </div>
+    </div>
     </div>
     <div id="contact" class="section">
-      
+    <p id="contact_header">Contact</p>
+    <div style="display:flex">
+    <div id="contact_details">
+      <p>E-mail: <a href="mailto:d2002damodaran@gmail.com" style="color:white">d2002damodaran@gmail.com</a>
+    </br>Phone: <a href="tel:607-793-5369" style="color:white">+1 (607) 793-5369</a>
+  </br><a aria-label="link to LinkedIn" href="https://www.linkedin.com/in/divya-damodaran-a417a1193/"><i alt="LinkedIn" class="fa fa-linkedin-square" style="font-size: 32px; margin-right: 10px; margin-top: 5px; color: #FFC700;"></i></a></p>
+    </div>
+  </div>
     </div>
   </body>
 </html>
 <script>
-  console.log('hi');
  $(".header_nav_button").click(function() {  
     $(".header_nav_button").removeClass("active"); // This will remove active classes from all <li> tags
     $(this).addClass("active"); // This will add active class in clicked <li>   
@@ -183,13 +364,135 @@
     $(".about_sub").removeClass("active"); // This will remove active classes from all <li> tags
     $(this).addClass("active"); // This will add active class in clicked <li> 
     $(".about_sub_text").removeClass("active");
+    $("#education_text").addClass("active");
   });
 
-  $("#about_interest").click(function() {  
-    $(".about_sub").removeClass("active"); // This will remove active classes from all <li> tags
-    $(this).addClass("active"); // This will add active class in clicked <li> 
-    $(".about_sub_text").removeClass("active");
+
+  // Start storing data for skills
+
+
+  $(".language_tag").click(function() { 
+    $('html, body').stop().animate({
+        'scrollTop': $('#skills').offset().top
+    }, 2000, 'swing');
+    $(".bar").removeClass("active");
+    $(".skill_box").removeClass("active");
+
+    var lang = $(this).text().trim()
+    if (lang == "HTML/CSS"){
+    $("#html_box").addClass("active");
+    $("#html_bar").parent().addClass("active");   
+    }
+    else if (lang=="Python"){
+    $("#python_box").addClass("active");
+    $("#python_bar").parent().addClass("active");
+    }
+    else if (lang=="React"){
+    $("#react_box").addClass("active");
+    $("#react_bar").parent().addClass("active");
+    }
+    else if (lang=="Java"){
+    $("#java_box").addClass("active");
+    $("#java_bar").parent().addClass("active");
+    }
+    else if (lang=="SQL"){
+    $("#sql_box").addClass("active");
+    $("#sql_bar").parent().addClass("active");
+    }
+    else if (lang=="JavaScript"){
+    $("#javascript_box").addClass("active");
+    $("#javascript_bar").parent().addClass("active");
+    }
+    else if (lang=="JSP"){
+    $("#jsp_box").addClass("active");
+    $("#jsp_bar").parent().addClass("active");
+    }
+    else if (lang=="JQuery"){
+    $("#jquery_box").addClass("active");
+    $("#jquery_bar").parent().addClass("active");
+    }
+    else if (lang=="OCaml"){
+    $("#ocaml_box").addClass("active");
+    $("#ocaml_bar").parent().addClass("active");
+    }
+    else if (lang=="C++"){
+    $("#cplus_box").addClass("active");
+    $("#cplus_bar").parent().addClass("active");
+    }
+    else if (lang=="C#"){
+    $("#csharp_box").addClass("active");
+    $("#csharp_bar").parent().addClass("active");
+    };
+
+});
+
+
+  $(".bar").click(function() {  
+    if ($(this).hasClass("active")) {
+      $(".bar").removeClass("active");
+      $(".skill_box").removeClass("active");
+    }
+    else {
+      $(".bar").removeClass("active");
+      $(this).addClass("active");
+      $(".skill_box").removeClass("active");
+
+      var lang = $(this).text().trim()
+      if (lang == "HTML/CSS"){
+      $("#html_box").addClass("active");
+      }
+      else if (lang=="Python"){
+      $("#python_box").addClass("active");
+      }
+      else if (lang=="React"){
+      $("#react_box").addClass("active");
+      }
+      else if (lang=="Java"){
+      $("#java_box").addClass("active");
+      }
+      else if (lang=="SQL"){
+      $("#sql_box").addClass("active");
+      }
+      else if (lang=="JavaScript"){
+      $("#javascript_box").addClass("active");
+      }
+      else if (lang=="JSP"){
+      $("#jsp_box").addClass("active");
+      }
+      else if (lang=="JQuery"){
+      $("#jquery_box").addClass("active");
+      }
+      else if (lang=="OCaml"){
+      $("#ocaml_box").addClass("active");
+      }
+      else if (lang=="C++"){
+      $("#cplus_box").addClass("active");
+      }
+      else if (lang=="C#"){
+      $("#csharp_box").addClass("active");
+      };
+  }
   });
+
+const sections = document.querySelectorAll(".section");
+const navLi = document.querySelectorAll(".header_nav_button");
+window.onscroll = () => {
+  var current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute("id"); 
+    }
+  });
+  console.log(current);
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+};
 
 
 
